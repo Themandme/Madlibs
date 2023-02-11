@@ -14,3 +14,10 @@ if gameselection == 1:
   print("I loved when the hero got the " + noun)
   print("Yeah, and when they learned that song on the " + insturment)
   print("You're right. " + movie + " was pretty great! Here's hoping    for a sequel with even more " + trait)
+if gameselection == 2:
+    print("Not ready yet! Please play Mad Libs!")
+    gameselection = int(input("Select game "))
+
+if gameselection > 2:
+    print("Invalid Input")
+    gameselection = int(input("Select game "))
